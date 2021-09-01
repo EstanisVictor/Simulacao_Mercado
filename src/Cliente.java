@@ -8,7 +8,7 @@ public class Cliente {
     }
     
     public Cliente(String nome, String endereco, String tel) {
-      this.setNome(nome);
+      this.nome = nome;
       this.setEndereco(endereco);
       this.setTel(tel);
     }
